@@ -1,0 +1,27 @@
+{
+  "name": "tweets",
+  "version": "1.0.0",
+  "description": "Tweets Test task",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "flux": "^2.1.1",
+    "node-jsx": "^0.13.3",
+    "react": "^0.14.7",
+    "react-bootstrap": "^0.28.3",
+    "react-dom": "^0.14.7",
+    "react-tap-event-plugin": "^0.2.2",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^4.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Javier Armendariz",
+  "license": "ISC"
+}
